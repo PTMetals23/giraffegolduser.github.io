@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giraffe Gold LLC - Invest in Physical Gold Easily</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #001533; color: #FFFFFF; }
+        .navbar { background-color: #001533; }
+        .navbar-brand img { height: 40px; } /* Adjust logo size */
+        .nav-link { color: #FFFFFF !important; }
+        .nav-link:hover { color: #C9A650 !important; }
+        .hero { background-color: #001533; padding: 100px 0; text-align: center; color: #FFFFFF; }
+        .hero .card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; padding: 40px; max-width: 600px; margin: 0 auto; }
+        .section { padding: 50px 0; }
+        .bg-light { background-color: #001F4D; /* Slightly lighter navy for alternation */ }
+        .bg-dark { background-color: #001533; color: #FFFFFF; }
+        h1, h2, h3 { color: #C9A650; } /* Gold headings */
+        p { color: #FFFFFF; }
+        .btn-primary { background-color: #C9A650; border-color: #C9A650; color: #001533; }
+        .btn-primary:hover { background-color: #A67C00; border-color: #A67C00; color: #001533; }
+        .feature { margin-bottom: 20px; }
+        .secondary-text { color: #80B3FF; } /* Light blue for accents */
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="Giraffe Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gold-bars">Our Gold Bars</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-now">Why Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="card">
+                <h1>"Gold is money. Everything else is credit." - J.P. Morgan</h1>
+                <p>Passively accumulate physical gold on any budget with Giraffe Gold LLC.</p>
+                <a href="#signup" class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="problem" class="section bg-light">
+        <div class="container">
+            <h2>What's The Issue?</h2>
+            <p>Purchasing physical gold is costly and inaccessible for most investors.</p>
+        </div>
+    </section>
+
+    <section id="solution" class="section">
+        <div class="container">
+            <h2>Our Solution</h2>
+            <p>A digital platform to periodically invest in physical gold. Passively accumulate gold on any budget through our platform.</p>
+        </div>
+    </section>
+
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <h2>Platform Features</h2>
+            <div class="row">
+                <div class="col-md-4 feature">
+                    <h3>Customized Periodic Investment Automation</h3>
+                    <p>Set up automatic investments on your schedule.</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <h3>Physical Gold Bar Delivered</h3>
+                    <p>Get your gold bar delivered to your doorstep.</p>
+                </div>
+                <div class="col-md-4 feature">
+                    <h3>Additional Features</h3>
+                    <p>Buy backs, cancellations, gold bar top ups, and e-commerce.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <h2>How It Works</h2>
+            <ol>
+                <li>Link All Accounts</li>
+                <li>Customize Investment Preferences</li>
+                <li>Make Periodic Payments (Weekly, Bi-weekly, Monthly)</li>
+                <li>Use Card Transaction Round Ups</li>
+                <li>Bar Top Ups and Single Payments</li>
+                <li>Receive or Store Gold</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="gold-bars" class="section bg-light">
+        <div class="container">
+            <h2>Our Gold Bars</h2>
+            <p class="secondary-text">High quality gold to your doorstep from the finest mint in the world.</p>
+            <img src="gold-bars.png" alt="Our Gold Bars" class="img-fluid" style="max-width: 100%; height: auto;">
+        </div>
+    </section>
+
+    <section id="why-now" class="section">
+        <div class="container">
+            <h2>Why Now?</h2>
+            <p>Inflation is on the rise. Invest in gold.</p>
+            <p>USD average inflation rate from 2011-2020: [Insert exact rate from your data].</p>
+            <p>Value of $3,500 of gold 50 years ago is worth $125,000 today.</p>
+        </div>
+    </section>
+
+    <section id="who" class="section bg-light">
+        <div class="container">
+            <h2>Who Will Use Giraffe Gold?</h2>
+            <p>87% of American adults are concerned about inflation.</p>
+            <p>Young American Professionals and Gold Centric Cultures.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: mail@giraffe.com</p>
+            <p>Phone: 111-111-1111</p>
+            <p>Address: 3933 Post Oak Blvd, Suite 333, Los Angeles, CA USA</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
