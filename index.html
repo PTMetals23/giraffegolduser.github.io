@@ -14,7 +14,8 @@
         .hero { background-color: #001533; padding: 100px 0; text-align: center; color: #FFFFFF; }
         .hero .card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; padding: 40px; max-width: 600px; margin: 0 auto; }
         .section { padding: 50px 0; }
-        .bg-light { background-color: #001F4D; color: #001533 !important; } /* Navy blue text */
+        .bg-light { background-color: #001F4D; }
+        .bg-light p, .bg-light li, .bg-light .secondary-text { color: #001533 !important; } /* Specific targeting for navy blue */
         .bg-dark { background-color: #001533; color: #FFFFFF; }
         h1, h2, h3 { color: #C9A650; } /* Gold headings unchanged */
         p { color: #FFFFFF; } /* Default body text remains white for dark sections */
@@ -58,7 +59,7 @@
     <section id="problem" class="section bg-light">
         <div class="container">
             <h2>What's The Issue?</h2>
-            <p>Purchasing physical gold is costly and inaccessible for most investors.</p>
+            <p style="color: #001533;">Purchasing physical gold is costly and inaccessible for most investors.</p> <!-- Inline fallback -->
         </div>
     </section>
     <section id="solution" class="section">
@@ -73,15 +74,15 @@
             <div class="row">
                 <div class="col-md-4 feature">
                     <h3>Customized Periodic Investment Automation</h3>
-                    <p>Set up automatic investments on your schedule.</p>
+                    <p style="color: #001533;">Set up automatic investments on your schedule.</p> <!-- Inline fallback -->
                 </div>
                 <div class="col-md-4 feature">
                     <h3>Physical Gold Bar Delivered</h3>
-                    <p>Get your gold bar delivered to your doorstep.</p>
+                    <p style="color: #001533;">Get your gold bar delivered to your doorstep.</p> <!-- Inline fallback -->
                 </div>
                 <div class="col-md-4 feature">
                     <h3>Additional Features</h3>
-                    <p>Buy backs, cancellations, gold bar top ups, and e-commerce.</p>
+                    <p style="color: #001533;">Buy backs, cancellations, gold bar top ups, and e-commerce.</p> <!-- Inline fallback -->
                 </div>
             </div>
         </div>
@@ -102,14 +103,14 @@
     <section id="gold-bars" class="section bg-light">
         <div class="container gold-bars-container">
             <h2>Our Gold Bars</h2>
-            <p class="secondary-text">High quality gold to your doorstep from the finest mint in the world.</p>
+            <p class="secondary-text" style="color: #001533;">High quality gold to your doorstep from the finest mint in the world.</p> <!-- Inline fallback -->
             <img src="gold-bars.png" alt="Our Gold Bars" class="img-fluid" style="max-width: 50%; height: auto;">
         </div>
     </section>
     <section id="pre-sale" class="section bg-light">
         <div class="container pre-sale-container">
             <h2>Pre-Sale Membership</h2>
-            <p>Join our exclusive pre-sale for the Gold Bar Membership! Secure your spot to invest in physical gold with special early-bird benefits. Details coming soon—sign up to stay updated.</p>
+            <p style="color: #001533;">Join our exclusive pre-sale for the Gold Bar Membership! Secure your spot to invest in physical gold with special early-bird benefits. Details coming soon—sign up to stay updated.</p> <!-- Inline fallback -->
             <a href="#signup" class="btn btn-primary btn-lg">Join Pre-Sale</a>
         </div>
     </section>
@@ -124,8 +125,8 @@
     <section id="who" class="section bg-light">
         <div class="container">
             <h2>Who Will Use Giraffe Gold?</h2>
-            <p>87% of American adults are concerned about inflation.</p>
-            <p>Young American Professionals and Gold Centric Cultures.</p>
+            <p style="color: #001533;">87% of American adults are concerned about inflation.</p> <!-- Inline fallback -->
+            <p style="color: #001533;">Young American Professionals and Gold Centric Cultures.</p> <!-- Inline fallback -->
         </div>
     </section>
     <section id="contact" class="section bg-dark">
