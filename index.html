@@ -8,13 +8,13 @@
     <style>
         body { font-family: Arial, sans-serif; background-color: #001533; color: #FFFFFF; }
         .navbar { background-color: #001533; }
-        .navbar-brand img { height: 100px; } /* Increased logo size */
+        .navbar-brand img { height: 60px; } /* Increased logo size */
         .nav-link { color: #FFFFFF !important; }
         .nav-link:hover { color: #C9A650 !important; }
         .hero { background-color: #001533; padding: 100px 0; text-align: center; color: #FFFFFF; }
         .hero .card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; padding: 40px; max-width: 600px; margin: 0 auto; }
         .section { padding: 50px 0; }
-        .bg-light { background-color: #001F4D; color: #000000; } /* Changed text to black */
+        .bg-light { background-color: #001F4D; color: #000000 !important; } /* Forced black text */
         .bg-dark { background-color: #001533; color: #FFFFFF; }
         h1, h2, h3 { color: #C9A650; } /* Gold headings unchanged */
         p { color: #FFFFFF; } /* Default body text remains white for dark sections */
@@ -22,6 +22,7 @@
         .btn-primary:hover { background-color: #A67C00; border-color: #A67C00; color: #001533; }
         .feature { margin-bottom: 20px; }
         .secondary-text { color: #80B3FF; }
+        .gold-bars-container { display: flex; justify-content: center; } /* Center the gold bar */
     </style>
 </head>
 <body>
@@ -97,7 +98,7 @@
         </div>
     </section>
     <section id="gold-bars" class="section bg-light">
-        <div class="container">
+        <div class="container gold-bars-container"> <!-- Added class for centering -->
             <h2>Our Gold Bars</h2>
             <p class="secondary-text">High quality gold to your doorstep from the finest mint in the world.</p>
             <img src="gold-bars.png" alt="Our Gold Bars" class="img-fluid" style="max-width: 50%; height: auto;">
@@ -121,7 +122,7 @@
     <section id="contact" class="section bg-dark">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Email: info@giraffegold.com</p>
+            <p>Email: mail@giraffe.com</p>
             <p>Phone: 111-111-1111</p>
             <p>Address: 3933 Post Oak Blvd, Suite 333, Los Angeles, CA USA</p>
         </div>
