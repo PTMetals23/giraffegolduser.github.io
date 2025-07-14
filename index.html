@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> <!-- Prevent caching -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Giraffe Gold LLC - Invest in Physical Gold Easily</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -15,7 +18,8 @@
         .hero .card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; padding: 40px; max-width: 600px; margin: 0 auto; }
         .section { padding: 50px 0; }
         .bg-light { background-color: #001F4D; }
-        .bg-light p, .bg-light li, .bg-light .secondary-text { color: #001533 !important; } /* Specific targeting for navy blue */
+        .bg-light p, .bg-light li, .bg-light .secondary-text { color: #001533 !important; } /* Navy blue with !important */
+        .bg-light .container > p, .bg-light .container > .secondary-text { color: #001533 !important; } /* More specific targeting */
         .bg-dark { background-color: #001533; color: #FFFFFF; }
         h1, h2, h3 { color: #C9A650; } /* Gold headings unchanged */
         p { color: #FFFFFF; } /* Default body text remains white for dark sections */
@@ -59,7 +63,7 @@
     <section id="problem" class="section bg-light">
         <div class="container">
             <h2>What's The Issue?</h2>
-            <p style="color: #001533;">Purchasing physical gold is costly and inaccessible for most investors.</p> <!-- Inline fallback -->
+            <p style="color: #001533 !important;">Purchasing physical gold is costly and inaccessible for most investors.</p>
         </div>
     </section>
     <section id="solution" class="section">
@@ -74,15 +78,15 @@
             <div class="row">
                 <div class="col-md-4 feature">
                     <h3>Customized Periodic Investment Automation</h3>
-                    <p style="color: #001533;">Set up automatic investments on your schedule.</p> <!-- Inline fallback -->
+                    <p style="color: #001533 !important;">Set up automatic investments on your schedule.</p>
                 </div>
                 <div class="col-md-4 feature">
                     <h3>Physical Gold Bar Delivered</h3>
-                    <p style="color: #001533;">Get your gold bar delivered to your doorstep.</p> <!-- Inline fallback -->
+                    <p style="color: #001533 !important;">Get your gold bar delivered to your doorstep.</p>
                 </div>
                 <div class="col-md-4 feature">
                     <h3>Additional Features</h3>
-                    <p style="color: #001533;">Buy backs, cancellations, gold bar top ups, and e-commerce.</p> <!-- Inline fallback -->
+                    <p style="color: #001533 !important;">Buy backs, cancellations, gold bar top ups, and e-commerce.</p>
                 </div>
             </div>
         </div>
@@ -103,14 +107,14 @@
     <section id="gold-bars" class="section bg-light">
         <div class="container gold-bars-container">
             <h2>Our Gold Bars</h2>
-            <p class="secondary-text" style="color: #001533;">High quality gold to your doorstep from the finest mint in the world.</p> <!-- Inline fallback -->
+            <p class="secondary-text" style="color: #001533 !important;">High quality gold to your doorstep from the finest mint in the world.</p>
             <img src="gold-bars.png" alt="Our Gold Bars" class="img-fluid" style="max-width: 50%; height: auto;">
         </div>
     </section>
     <section id="pre-sale" class="section bg-light">
         <div class="container pre-sale-container">
             <h2>Pre-Sale Membership</h2>
-            <p style="color: #001533;">Join our exclusive pre-sale for the Gold Bar Membership! Secure your spot to invest in physical gold with special early-bird benefits. Details coming soon—sign up to stay updated.</p> <!-- Inline fallback -->
+            <p style="color: #001533 !important;">Join our exclusive pre-sale for the Gold Bar Membership! Secure your spot to invest in physical gold with special early-bird benefits. Details coming soon—sign up to stay updated.</p>
             <a href="#signup" class="btn btn-primary btn-lg">Join Pre-Sale</a>
         </div>
     </section>
@@ -125,8 +129,8 @@
     <section id="who" class="section bg-light">
         <div class="container">
             <h2>Who Will Use Giraffe Gold?</h2>
-            <p style="color: #001533;">87% of American adults are concerned about inflation.</p> <!-- Inline fallback -->
-            <p style="color: #001533;">Young American Professionals and Gold Centric Cultures.</p> <!-- Inline fallback -->
+            <p style="color: #001533 !important;">87% of American adults are concerned about inflation.</p>
+            <p style="color: #001533 !important;">Young American Professionals and Gold Centric Cultures.</p>
         </div>
     </section>
     <section id="contact" class="section bg-dark">
