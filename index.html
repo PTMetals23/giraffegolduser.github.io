@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> <!-- Prevent caching -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Giraffe Gold LLC - Invest in Physical Gold Easily</title>
@@ -18,8 +18,8 @@
         .hero .card { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 20px; padding: 40px; max-width: 600px; margin: 0 auto; }
         .section { padding: 50px 0; }
         .bg-light { background-color: #001F4D; }
-        .bg-light p, .bg-light li, .bg-light .secondary-text { color: #001533 !important; } /* Navy blue with !important */
-        .bg-light .container > p, .bg-light .container > .secondary-text { color: #001533 !important; } /* More specific targeting */
+        .bg-light p, .bg-light li, .bg-light .secondary-text { color: #001533 !important; }
+        .bg-light .container > p, .bg-light .container > .secondary-text { color: #001533 !important; }
         .bg-dark { background-color: #001533; color: #FFFFFF; }
         h1, h2, h3 { color: #C9A650; } /* Gold headings unchanged */
         p { color: #FFFFFF; } /* Default body text remains white for dark sections */
@@ -27,7 +27,8 @@
         .btn-primary:hover { background-color: #A67C00; border-color: #A67C00; color: #001533; }
         .feature { margin-bottom: 20px; }
         .secondary-text { color: #80B3FF; }
-        .gold-bars-container { display: flex; justify-content: center; } /* Center the gold bar */
+        .gold-bars-container { display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 20px 0; } /* Centered with vertical alignment */
+        .gold-bars-container img { margin: 0 auto; max-width: 50%; height: auto; } /* Ensure image is centered */
         .pre-sale-container { text-align: center; padding: 20px 0; }
     </style>
 </head>
@@ -106,9 +107,9 @@
     </section>
     <section id="gold-bars" class="section bg-light">
         <div class="container gold-bars-container">
-            <h2>Our Gold Bars</h2>
-            <p class="secondary-text" style="color: #001533 !important;">High quality gold to your doorstep from the finest mint in the world.</p>
-            <img src="gold-bars.png" alt="Our Gold Bars" class="img-fluid" style="max-width: 50%; height: auto;">
+            <h2 style="margin-bottom: 20px;">Our Gold Bars</h2> <!-- Added spacing -->
+            <p class="secondary-text" style="color: #001533 !important; margin-bottom: 20px;">High quality gold to your doorstep from the finest mint in the world.</p>
+            <img src="gold-bars.png" alt="Our Gold Bars" class="img-fluid" style="max-width: 50%; height: auto; margin: 0 auto;">
         </div>
     </section>
     <section id="pre-sale" class="section bg-light">
